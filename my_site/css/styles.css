@@ -1,0 +1,36 @@
+:root{
+    --fuenteHeading: 'PT-Sans', sans-serif ;
+    --fuenteParrafos: 'Open Sans', sans-serif ;
+
+    --primario: #784D3C;
+    --primario-claro: #7a5f57;
+    --gris: #c5c5c5;
+    --blanco: #FFFFFF;
+    --negro:#000000;
+    --oscuro: #565656;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--fuenteParrafos), serif;
+    background-color: var(--negro);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+header{
+    color: var(--gris);
+    font-size: 4rem;
+    font-weight: 900;
+    display: flex;
+
+}
