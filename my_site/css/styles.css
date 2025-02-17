@@ -1,13 +1,8 @@
 :root{
-    --fuenteHeading: 'PT-Sans', sans-serif ;
-    --fuenteParrafos: 'Open Sans', sans-serif ;
+    --fuente:"Roboto Condensed", serif;
 
-    --primario: #784D3C;
-    --primario-claro: #7a5f57;
-    --gris: #c5c5c5;
     --blanco: #FFFFFF;
-    --negro:#000000;
-    --oscuro: #565656;
+    ;
 
 }
 
@@ -21,16 +16,60 @@ html{
 }
 
 body{
-    font-family: var(--fuenteParrafos), serif;
-    background-color: var(--negro);
+    display: grid;
+    font-family: var(--fuente), serif;
     font-size: 1.6rem;
     line-height: 2;
 }
 
-header{
-    color: var(--gris);
+.blog{
+    display: grid;
+}
+
+.header{
+    background-color: black;
+    color: azure;
     font-size: 4rem;
     font-weight: 900;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+
+.header--navegacion{
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav--a{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+.articulo{
+    max-width: 100rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.footer{
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: azure;
+
+}
+.articulo--img{
+    max-width: 30rem;
 }
