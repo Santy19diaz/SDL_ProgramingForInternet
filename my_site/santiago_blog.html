@@ -11,48 +11,92 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
 
-    <header>Santy's Blog</header>
-    <nav class="header--navegacion">
-        <a class="nav--a" href="index.html">Home</a>
-        <a class="nav--a" href="#">About</a>
-        <a class="nav--a" href="#">Contact</a>
-    </nav>
+<header class="header">
+    <div class="contenedor">
+        <div class="barra">
+            <a class="logo" href="santiago_blog.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Santy's<span class="logo__bold">Blog</span></h1>
+            </a>
+            <nav class="navegacion">
+                <a href="santiago_blog.html" class="navegacion__enlace">Home</a>
+                <a href="about-us.html" class="navegacion__enlace">About us</a>
+                <a href="contact.html" class="navegacion__enlace">Contact</a>
+            </nav>
+        </div>
     </div>
-<main class="blog">
-    <!--articulo 1-->
-    <div class="articulo">
-    <article>
-        <h2>primero</h2>
-        <img class="articulo--img" src="img/download.jpg" alt="celular">
-        <p>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-        </p>
-        <time datetime="2020-01-01">January 1, 2020</time>
-    </article>
-    </div>
-    <!--articulo 2-->
-    <div class="articulo">
-        <article>
-            <h2>segundo</h2>
-            <img class="articulo--img" src="img/celu.jpg" alt="celular">
-            <p>
-                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.
-            </p>
-            <time datetime="2020-01-01">January 1, 2020</time>
-        </article>
+</header>
+
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <!--articulo 1-->
+                <article class="entrada">
+                    <h2>Smartwatch</h2>
+                    <div class="entrada__imagen">
+                        <img src="img/reloj.jpg" alt="celular">
+                    </div>
+                    <div class="entrada__contenido">
+                        <p>
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        </p>
+                        <time datetime="2020-01-01">January 1, 2020</time>
+                    </div>
+                </article>
+
+            <!--articulo 2-->
+                <article class="entrada">
+                    <div class="entrada__imagen">
+                        <img class="articulo--img" src="img/smart.jpg" alt="celular">
+                    </div>
+                    <div class="entrada__contenido">
+                        <h2>Smartphone</h2>
+                        <p>
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                        <time datetime="2020-01-01">January 1, 2020</time>
+                    </div>
+                </article>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Latest Posts</h3>
+            <ul class="widget">
+                <li class="widget__item">
+                    <a href="#" >Smartphones</a>
+                </li>
+                <li class="widget__item">
+                    <a href="#">Wearables</a>
+                </li>
+                <li class="widget__item">
+                    <a href="#" >tablets</a>
+                </li>
+            </ul>
+        </aside>
+
     </div>
 
-</main>
+
+
+
     <footer class = "footer">
         <p>&copy;All right reserve</p>
     </footer>

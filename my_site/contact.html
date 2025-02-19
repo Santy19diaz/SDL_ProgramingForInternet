@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Santy's Blog</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="img/icono.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="contenedor">
+    <div class="barra">
+      <a class="logo" href="santiago_blog.html">
+        <h1 class="logo__nombre no-margin centrar-texto">Santy's<span class="logo__bold">Blog</span></h1>
+      </a>
+      <nav class="navegacion">
+        <a href="santiago_blog.html" class="navegacion__enlace">Home</a>
+        <a href="about-us.html" class="navegacion__enlace">About us</a>
+        <a href="contact.html" class="navegacion__enlace">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="contenedor ">
+  <h3 class="centrar-texto">Contact us</h3>
+  <div class="contacto-bg"></div>
+
+  <form class="formulario">
+
+    <div class="campo">
+      <label class="campo__label" for="nombre">Name</label>
+      <input class="campo__field"
+             type="text"
+             placeholder="your name"
+             id="nombre">
+    </div>
+    <div class="campo">
+      <label class="campo__label" for="email">E-mail</label>
+      <input class="campo__field"
+             type="email"
+             placeholder="your e-mail"
+             id="email">
+    </div>
+    <div class="campo">
+      <label class="campo__label" for="mensaje">Message</label>
+      <textarea class="campo__field campo__field--textarea"
+                type="text"
+                placeholder="Tu mensaje"
+                id="mensaje">
+                    </textarea>
+    </div>
+
+    <div class="campo">
+      <input type="submit"
+             value="Enviar"
+             class="boton boton--primario">
+    </div>
+  </form>
+
+
+</main>
+<footer class = "footer">
+  <p>&copy;All right reserve</p>
+</footer>
+
+</body>
+</html>
